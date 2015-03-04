@@ -1,0 +1,18 @@
+<!! c++ nauka 04,03,15r 
+// algorytm wyznaczający pierwiastkirównania liniowego  ax+b=0
+
+#include <iostream>
+using namespace std;
+main()
+{
+double a, b, x;
+cout<<"a=";
+cin>>a;
+cout<<"b:";
+cin>>b;
+if (a!=0) {x=-b/a; cout<<"x="<<x<<endl;}
+  else if (b==0) cout<<"nieskończenie wiele rozwiązań"<<endl;
+    else cout<<"równanie sprzeczne"<<endl;
+system("pause");
+return 0;
+    }
